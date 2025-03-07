@@ -1,0 +1,30 @@
+[project]
+name = "langgraph_course"
+version = "0.1.0"
+description = "Learning and testing around langgraph notebooks"
+authors = [
+    {name = "Hussain Zaidi",email = "syedhussainzaidi2002@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "langgraph (>=0.3.5,<0.4.0)",
+    "langgraph-sdk (>=0.1.55,<0.2.0)",
+    "langgraph-checkpoint-sqlite (>=2.0.5,<3.0.0)",
+    "langsmith (>=0.3.12,<0.4.0)",
+    "langchain-community (>=0.3.19,<0.4.0)",
+    "langchain-core (>=0.3.41,<0.4.0)",
+    "langchain-openai (>=0.3.7,<0.4.0)",
+    "notebook (>=7.3.2,<8.0.0)",
+    "tavily-python (>=0.5.1,<0.6.0)",
+    "wikipedia (>=1.4.0,<2.0.0)",
+    "trustcall (>=0.0.38,<0.0.39)",
+    "langgraph-cli (>=0.1.75,<0.2.0)"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
